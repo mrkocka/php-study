@@ -31,5 +31,18 @@
 ?>
 
 </section>
+<p>Asszociatív tömb</p>
+
+<section>
+    <?php
+    $keddimenü = array("Leves" => "Fokhagymakrémleves", "Főétel" => "Marha Steak hasábbal", "Desszert" => "Tiramisu vanília pudinggal");
+
+    echo"<p>A Keddi menü</p>";
+    echo"Leves: {$keddimenü["Leves"]}<br>";
+    echo"Főétel: {$keddimenü["Főétel"]}<br>";
+    echo"Desszert: {$keddimenü["Desszert"]}<br>";
+
+    ?>
+</section>
 
 
