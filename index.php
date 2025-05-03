@@ -8,8 +8,12 @@
 </head>
 <body>
     <?php
+    /* Ez egy egyszerű kimenet */
     require("egyszeru_kimenet.inc.php");
-    require("adattipusok.inc.php")
+    /* Adattipusok */
+    require("adattipusok.inc.php");
+    /* Operátorok és Aritmetikai műveletek */
+    require("operatorok.inc.php");
     ?>
 </body>
 </html>
