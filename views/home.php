@@ -1,19 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>PHP Gyakorlás_2025</title>
 </head>
 <body>
+    <nav>
+        <?php require("assets/inc/nav.inc.php"); ?>
+    </nav>
     <?php
     /* Ez egy egyszerű kimenet */
-    require("egyszeru_kimenet.inc.php");
+    require("assets/inc/egyszeru_kimenet.inc.php");
     /* Adattipusok */
-    require("adattipusok.inc.php");
+    require("assets/inc/adattipusok.inc.php");
     /* Operátorok és Aritmetikai műveletek */
-    require("operatorok.inc.php");
+    require("assets/inc/operatorok.inc.php");
     ?>
 </body>
 </html>
